@@ -8,10 +8,12 @@
         <button id="requestAd">requestAd</button>
 
         <script type="text/javascript">
+        // window.onload = function() { /* uncomment this to fix all the things */
             adSDK.init();
             document.getElementById('requestAd').addEventListener('click', () => { 
                 adSDK.requestAd();
             });
+        // }
         </script>
         
         <iframe width=800 height=600 src="[DIFFERENT-HOST!]/no-iframe.html"></iframe>
